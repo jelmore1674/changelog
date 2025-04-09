@@ -1,0 +1,3 @@
+fixed:
+  ops:
+    - Set the main to `dist/index.js`.
