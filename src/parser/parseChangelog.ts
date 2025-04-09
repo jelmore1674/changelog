@@ -41,7 +41,8 @@ function parseChangelog<T = Record<string, string | string[]>>(
 
     // Overwrite the release version if there is one set.
     if (
-      releaseVersion && isUnreleasedVersion(releaseVersion) && isUnreleasedVersion(release.version)
+      releaseVersion && releaseVersion.toLowerCase() !== "unreleased"
+      && release.version.toLowerCase() === "unreleased"
     ) {
       const today = new Date().toISOString().split("T")[0];
       release.version = releaseVersion;

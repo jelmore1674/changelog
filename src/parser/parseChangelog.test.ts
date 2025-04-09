@@ -1,3 +1,4 @@
+import { readFileSync } from "fs";
 import { describe, expect, test } from "vitest";
 import { parseChangelog } from "./parseChangelog.ts";
 
@@ -143,6 +144,13 @@ Here we would have the update steps for 1.2.4 for people to follow.
       release_date: "2024-12-07",
       added: ["[Breaking 🧨] - this cool change.", "[Breaking 🧨] - this other change here."],
     }]);
+  });
+
+  test("real changelog", () => {
+    const changelogFile = readFileSync(process.cwd() + "/CHANGELOG.md", { encoding: "utf8" });
+    const cl = parseChangelog(changelogFile);
+    console.log({ cl });
+    expect(cl.length).toBeGreaterThan(1);
   });
 
   test("can handle different variations of versions", () => {
