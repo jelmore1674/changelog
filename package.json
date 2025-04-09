@@ -3,7 +3,7 @@
   "version": "0.2.5",
   "description": "",
   "main": "index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
