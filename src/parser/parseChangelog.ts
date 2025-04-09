@@ -9,7 +9,6 @@ import {
   versionSectionRegex,
 } from "../regex";
 import type { Changelog, Version } from "../types";
-import { isUnreleasedVersion } from "./isUnreleasedVersion";
 
 /**
  * parse an existing changelog file and convert to an object.
