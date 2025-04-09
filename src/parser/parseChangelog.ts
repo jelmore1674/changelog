@@ -28,6 +28,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
 
     // Pull the version and release_date from the section.
     const [version] = section.match(versionRegex) || ["Unreleased"];
+    // biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
     const [release_date] = section.match(dateRegex) || ["TBD"];
     // Get the notice if there is a notice.
     const [notice] = section.match(noticeRegex) || [undefined];
