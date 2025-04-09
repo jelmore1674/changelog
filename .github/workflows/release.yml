@@ -61,6 +61,17 @@ jobs:
           body: ${{ steps.changelog.outputs.notes }}
           update_package_json: true
 
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - name: Install Packages.
+        run: pnpm i --frozen-lockfile
+      - name: Lint
+        run: pnpm lint
+      - name: Build
+        run: pnpm build
       - uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ steps.load-op.outputs.NPM_TOKEN }}
