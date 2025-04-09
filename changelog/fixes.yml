@@ -1,0 +1,3 @@
+removed:
+  feature:
+    - Replace `isUnreleasedVersion` with hard string check.
