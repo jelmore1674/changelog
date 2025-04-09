@@ -2,7 +2,13 @@
   "name": "@jelmore1674/changelog",
   "version": "0.2.3",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "lint": "biome lint --error-on-warnings && dprint check",
