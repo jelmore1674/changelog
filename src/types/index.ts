@@ -21,6 +21,7 @@ interface Release {
   /**
    * The release date of the current release.
    */
+  // biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
   release_date?: string;
 
   /**
@@ -39,8 +40,10 @@ interface Release {
 /**
  * The keywords used to make up the sections of the changelog.
  */
+// biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
 type KeepAChangelogKeywords = keyof typeof KEEP_A_CHANGELOG_CHANGES;
 
+// biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
 type KeepAChangelogSemantics = Partial<Record<KeepAChangelogKeywords, string[]>>;
 
 /**

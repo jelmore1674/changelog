@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup",
+    "lint": "biome lint --error-on-warnings && dprint check",
     "test": "vitest"
   },
   "repository": {

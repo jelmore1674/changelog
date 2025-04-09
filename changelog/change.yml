@@ -1,0 +1,5 @@
+notice: Intial Release of App
+
+added:
+  feature:
+    - This adds a `parseChangelog` function to convert changelogs into an object.
