@@ -1,3 +1,0 @@
-fixed:
-  exports:
-    - Add `index.ts` to export all files to get type declarations.
