@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { parseChangelog } from "./";
+import { parseChangelog } from "./parseChangelog.ts";
 
 describe("convertChangelogToObject", () => {
   test("reads changelog", () => {

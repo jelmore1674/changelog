@@ -70,7 +70,15 @@ const lineRegex = /^(.*)$/m;
  */
 const markdownReferenceLinkRegex = /^(\[.*\]: .*)$/gism;
 
+/**
+ * Regex used to get the change from the changelog.
+ *
+ * @link [regex101](https://regex101.com/r/CIsbje/1)
+ */
+const changeLineRegex = /^- /gm;
+
 export {
+  changeLineRegex,
   changeSectionRegex,
   dateRegex,
   keywordRegex,
