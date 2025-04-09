@@ -1,6 +1,6 @@
 {
   "name": "@jelmore1674/changelog",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "",
   "main": "index.js",
   "module": "dist/index.mjs",
