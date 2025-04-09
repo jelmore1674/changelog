@@ -13,5 +13,5 @@ _Intial Release of App_
 
 - This adds a `parseChangelog` function to convert changelogs into an object. ([#1](https://github.com/jelmore1674/changelog/pull/1)) ([jelmore1674](https://github.com/jelmore1674))
 
-[0.2.1]: https://github.com/jelmore1674/changelog/releases/tag/v0.2.1
 
+[0.2.3]: https://github.com/jelmore1674/changelog/releases/tag/v0.2.3
