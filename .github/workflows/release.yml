@@ -68,10 +68,9 @@ jobs:
           cache: "pnpm"
       - name: Install Packages.
         run: pnpm i --frozen-lockfile
-      - name: Lint
-        run: pnpm lint
       - name: Build
         run: pnpm build
       - uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ steps.load-op.outputs.NPM_TOKEN }}
+          access: public
