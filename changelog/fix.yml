@@ -1,3 +1,0 @@
-fixed:
-  change:
-    - Fix regex for detecting notices in changelogs.
