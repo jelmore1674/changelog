@@ -47,7 +47,7 @@ jobs:
 
       - name: Set Version for Unreleased
         id: changelog
-        uses: jelmore1674/build-changelog@v1.2.1
+        uses: jelmore1674/build-changelog@v1
         with:
           release_type: ${{ inputs.release_type }}
           version: ${{ inputs.tag }}
