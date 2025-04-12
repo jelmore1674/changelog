@@ -102,13 +102,15 @@ Here we would have the update steps for 1.2.4 for people to follow.
 
   test("can get notice out of changelog", () => {
     const raw =
-      "# Changelog\n\n## [1.0.0] - 2024-12-07\n\n_This is a notice_\n\n### Added\n\n- [Breaking 🧨] - this cool change\n";
+      "# Changelog\n\n## [1.0.0] - 2024-12-07\n\n_Read the [README.md](./README.md#complex-example) how to add changes._\n\n### Added\n\n- Add `name_override` input to give more control on naming convention of contributors. ([#71](https://github.com/jelmore1674/build-changelog/pull/71), [#70](https://github.com/jelmore1674/build-changelog/issues/70)) ([Justin Elmore](https://github.com/jelmore1674))\n";
     const cl = parseChangelog(raw);
     expect(cl).toEqual([{
       version: "1.0.0",
-      notice: "This is a notice",
+      notice: "Read the [README.md](./README.md#complex-example) how to add changes.",
       release_date: "2024-12-07",
-      added: ["[Breaking 🧨] - this cool change"],
+      added: [
+        "Add `name_override` input to give more control on naming convention of contributors. ([#71](https://github.com/jelmore1674/build-changelog/pull/71), [#70](https://github.com/jelmore1674/build-changelog/issues/70)) ([Justin Elmore](https://github.com/jelmore1674))",
+      ],
     }]);
   });
 

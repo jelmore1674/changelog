@@ -53,8 +53,20 @@ const changeSectionRegex = /(?=^#{3} .*?$)/gism;
  */
 const keywordRegex = /(?:^#{3} )(\S+)/ism;
 
-// notice
-const noticeRegex = /(?<=^_)((.*)(?=_))/gism;
+/**
+ * Regex used to get the notice out of the change section
+ *
+ * @example
+ *
+ * ```md
+ * ## [1.0.0] - 2025-01-01
+ *
+ * _This is a notice._
+ * ```
+ *
+ * @link [regex101](https://regex101.com/r/lBG1DW/1)
+ */
+const noticeRegex = /(?<=^_)((.*)(?=_$))/gism;
 
 /**
  * Regex used to match the line.
