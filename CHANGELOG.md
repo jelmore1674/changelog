@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - TBD
+
+### Changed
+
+- [Breaking 🧨] - Versions are now accessed using the `versions` property. ([#6](https://github.com/jelmore1674/changelog/pull/6)) ([jelmore1674](https://github.com/jelmore1674))
+
+### Added
+
+- Ability to parse markdown reference links. ([#6](https://github.com/jelmore1674/changelog/pull/6)) ([jelmore1674](https://github.com/jelmore1674))
+
 ## [0.3.0] - 2025-04-12
 
 ### Fixed

@@ -1,6 +1,0 @@
-added:
-  - Ability to parse markdown reference links.
-
-changed:
-  breaking:
-    - Versions are now accessed using the `versions` property.
