@@ -12,6 +12,11 @@ const KEEP_A_CHANGELOG_CHANGES = {
   security: "security",
 } as const;
 
+interface Reference {
+  reference: string;
+  url: string;
+}
+
 interface Release {
   /**
    * The version of the current release.
@@ -54,6 +59,16 @@ type Version<T = Record<string, string | string[]>> = Release & T;
 /**
  * The Changelog once it has been parsed.
  */
-type Changelog<T = Record<string, string | string[]>> = Version<T>[];
+interface Changelog<T = Record<string, string | string[]>> {
+  /**
+   * The versions of changes in the changelog.
+   */
+  versions: Version<T>[];
 
-export type { Changelog, KeepAChangelogKeywords, KeepAChangelogSemantics, Version };
+  /**
+   * Any reference links.
+   */
+  links: Reference[];
+}
+
+export type { Changelog, KeepAChangelogKeywords, KeepAChangelogSemantics, Reference, Version };
