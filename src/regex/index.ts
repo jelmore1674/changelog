@@ -80,7 +80,21 @@ const lineRegex = /^(.*)$/m;
  *
  * @link [regex101](https://regex101.com/r/CIsbje/1)
  */
-const markdownReferenceLinkRegex = /^(\[.*\]: .*)$/gism;
+const markdownReferenceLinkRegex = /^(\[.*\]: .*)$/gim;
+
+/**
+ * Regex used to get the link from the markdown reference link
+ *
+ * @link [regex101](https://regex101.com/r/XY6Twi/1)
+ */
+const referenceLinkRegex = /(?:^\[)(.*)(?:\])/mi;
+
+/**
+ * Regex used to get the url for the reference link.
+ *
+ * @link [regex101](https://regex101.com/r/ITyw83/1)
+ */
+const referenceLinkUrlRegex = /(?:^\[.*\]: )(.*)$/mi;
 
 /**
  * Regex used to get the change from the changelog.
@@ -97,6 +111,8 @@ export {
   lineRegex,
   markdownReferenceLinkRegex,
   noticeRegex,
+  referenceLinkRegex,
+  referenceLinkUrlRegex,
   versionRegex,
   versionSectionRegex,
 };

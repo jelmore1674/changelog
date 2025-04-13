@@ -5,10 +5,12 @@ import {
   lineRegex,
   markdownReferenceLinkRegex,
   noticeRegex,
+  referenceLinkRegex,
+  referenceLinkUrlRegex,
   versionRegex,
   versionSectionRegex,
 } from "../regex";
-import type { Changelog, Version } from "../types";
+import type { Changelog, Reference, Version } from "../types";
 
 /**
  * parse an existing changelog file and convert to an object.
@@ -20,7 +22,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
   changelog: string,
   releaseVersion?: string,
 ): Changelog<T> {
-  const parsedChangelog = changelog.split(versionSectionRegex).map(section => {
+  const parsedVersions = changelog.split(versionSectionRegex).map(section => {
     if (section.toLowerCase().includes("# changelog")) {
       return;
     }
@@ -64,7 +66,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
         release[keyword.toLowerCase()] = changeKeyword.replace(
           lineRegex,
           "",
-        ).replace(markdownReferenceLinkRegex, "").trim().split(/^- /gm)
+        ).replaceAll(markdownReferenceLinkRegex, "").trim().split(/^- /gm)
           .map((change: string) =>
             change
               .replace(/(^-|\n) /g, "")
@@ -79,7 +81,28 @@ function parseChangelog<T = Record<string, string | string[]>>(
     return release;
   }).filter(Boolean) as Version<T>[];
 
-  return parsedChangelog || [];
+  const links: Reference[] = [];
+
+  const linkSection = changelog.match(markdownReferenceLinkRegex);
+
+  if (linkSection && linkSection.length > 0) {
+    linkSection.map(link => {
+      const referenceMatch = link.match(referenceLinkRegex);
+      const urlMatch = link.match(referenceLinkUrlRegex);
+
+      if (referenceMatch && urlMatch) {
+        links.push({
+          reference: referenceMatch[1],
+          url: urlMatch[1],
+        });
+      }
+    });
+  }
+
+  return {
+    versions: parsedVersions || [],
+    links,
+  };
 }
 
 export { parseChangelog };
