@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Ability to parse markdown reference links. ([#6](https://github.com/jelmore1674/changelog/pull/6)) ([jelmore1674](https://github.com/jelmore1674))
+- Functionality to be able to write changelog files. ([#7](https://github.com/jelmore1674/changelog/pull/7)) ([jelmore1674](https://github.com/jelmore1674))
 
 ## [0.3.0] - 2025-04-12
 
