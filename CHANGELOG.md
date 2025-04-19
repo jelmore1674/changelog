@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - TBD
+
+### Added
+
+- Configuration option to pass in a custom heading. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
+- Configuration options in `writeChangelog` to set the changelog style to `common-changelog`, `keep-a-changelog`, or `custom`. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
+- New template for `common-changelog` style of changelog. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
+- New template for `custom` style of changelog. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
+- New template for `keep-a-changelog` style of changelog. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
+
 ## [1.0.0] - 2025-04-15
 
 ### Changed
@@ -59,7 +69,6 @@ _Intial Release of App_
 ### Added
 
 - This adds a `parseChangelog` function to convert changelogs into an object. ([#1](https://github.com/jelmore1674/changelog/pull/1)) ([jelmore1674](https://github.com/jelmore1674))
-
 
 [1.0.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.0.0
 [0.3.0]: https://github.com/jelmore1674/changelog/releases/tag/v0.3.0

@@ -1,6 +1,0 @@
-added:
-  - Configuration options in `writeChangelog` to set the changelog style to `common-changelog`, `keep-a-changelog`, or `custom`.
-  - Configuration option to pass in a custom heading.
-  - New template for `common-changelog` style of changelog.
-  - New template for `keep-a-changelog` style of changelog.
-  - New template for `custom` style of changelog.
