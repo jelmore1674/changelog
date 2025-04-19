@@ -10,9 +10,9 @@ This package can take a changelog file and convert it to a changelog object.
 ### Parse Example
 
 ```js
-import { parseChangelog } from '@jelmore1674/changelog';
+import { parseChangelog } from "@jelmore1674/changelog";
 
-const rawChangelog = readFileSync('CHANGELOG.md', { encoding: 'utf8' });
+const rawChangelog = readFileSync("CHANGELOG.md", { encoding: "utf8" });
 const changelog = parseChangelog(rawChangelog);
 ```
 
@@ -27,21 +27,20 @@ import { writeChangelog } from "@jelmore1674/changelog";
 
 
 const changelogObject = {
-    versions: = [
+    versions: [
         {
             version: "1.0.0",
             release_date: "2025-01-01",
             added: ["This cool feature."]
         }
     ]
-    links = [
+    links: [
         {
-            url: "https://release.url"
+            url: "https://release.url",
             reference: "1.0.0"
         }
     ]
 }
 
 const changelog = writeChangelog(changelogObject);
-
 ```
