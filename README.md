@@ -25,22 +25,21 @@ This can take the changelog object and parse it into a changelog.
 ```js
 import { writeChangelog } from "@jelmore1674/changelog";
 
-
 const changelogObject = {
-    versions: [
-        {
-            version: "1.0.0",
-            release_date: "2025-01-01",
-            added: ["This cool feature."]
-        }
-    ]
-    links: [
-        {
-            url: "https://release.url",
-            reference: "1.0.0"
-        }
-    ]
-}
+  versions: [
+    {
+      version: "1.0.0",
+      release_date: "2025-01-01",
+      added: ["This cool feature."],
+    },
+  ],
+  links: [
+    {
+      url: "https://release.url",
+      reference: "1.0.0",
+    },
+  ],
+};
 
 const changelog = writeChangelog(changelogObject);
 ```
