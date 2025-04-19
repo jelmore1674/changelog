@@ -17,6 +17,15 @@ import type { Changelog, Reference, Version } from "../types";
  *
  * @param changelog - the changelog file.
  * @param [releaseVersion] - the releaseVersion if we are not parsing `Unreleased`.
+ *
+ * @example
+ * ```js
+ *  import { readFileSync } from "fs:node";
+ *  import { parsedChangelog } from "@jelmore1674/changelog";
+ *
+ * const changelogFile = readFileSync("CHANGELOG.md", "utf8");
+ * const parsedChangelog = parseChangelog(changelogFile);
+ * ```
  */
 function parseChangelog<T = Record<string, string | string[]>>(
   changelog: string,
@@ -72,11 +81,9 @@ function parseChangelog<T = Record<string, string | string[]>>(
               .replace(/(^-|\n) /g, "")
               .trim()
           )
-          .filter(i => i);
+          .filter(Boolean);
       }
-    }).filter(changes => {
-      return changes;
-    });
+    }).filter(Boolean);
 
     return release;
   }).filter(Boolean) as Version<T>[];
