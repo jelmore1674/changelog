@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New template for `custom` style of changelog. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
 - New template for `keep-a-changelog` style of changelog. ([`647f362`](https://github.com/jelmore1674/changelog/commit/647f3624be95f9e27a9caa1b8eaf7861500677c9)) ([#8](https://github.com/jelmore1674/changelog/pull/8)) ([Justin Elmore](https://github.com/jelmore1674))
 
+### Security
+
+- Updates `vite` from 6.2.5 to 6.3.2 ([`6094f23`](https://github.com/jelmore1674/changelog/commit/6094f234b0af939ca4d4fcc2cdde58af471afb3c)) ([#9](https://github.com/jelmore1674/changelog/pull/9)) ([dependabot](https://github.com/apps/dependabot))
+
 ## [1.0.0] - 2025-04-15
 
 ### Changed
