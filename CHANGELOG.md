@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - TBD
+
+### Security
+
+- Updates `vitest` from 3.1.1 to 3.1.2 ([`6a7ba2e`](https://github.com/jelmore1674/changelog/commit/6a7ba2e3b975aec62e70496fb3d93e1a633cf94e)) ([#10](https://github.com/jelmore1674/changelog/pull/10)) ([dependabot](https://github.com/apps/dependabot))
+
 ## [1.1.1] - 2025-04-19
 
 ### Fixed
