@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 import { describe, expect, test } from "vitest";
-import { parseChangelog } from "./parseChangelog.ts";
+import { parseChangelog } from "./";
 
 describe("convertChangelogToObject", () => {
   test("reads changelog", () => {
@@ -129,6 +129,7 @@ Here we would have the update steps for 1.2.4 for people to follow.
       "# Changelog\n\n## [1.0.0] - 2024-12-07\n\n### Added\n\n- [Breaking 🧨] - this cool change.\n- [Breaking 🧨] - this other change here.\n\n[1.0.0]: https://test.com";
     const cl = parseChangelog(raw);
     expect(cl).toEqual({
+      heading: "",
       versions: [{
         version: "1.0.0",
         release_date: "2024-12-07",
@@ -177,6 +178,7 @@ Here we would have the update steps for 1.2.4 for people to follow.
     const cl = parseChangelog(raw);
 
     expect(cl).toEqual({
+      heading: "",
       versions: [{
         version: "1.0.0",
         release_date: "2024-12-07",

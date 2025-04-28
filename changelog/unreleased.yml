@@ -1,0 +1,5 @@
+added:
+  - "`setUnreleasedChangesVersion` to set the version for unreleased changes while preserving other changes."
+
+changed:
+  - "Added `heading` property to `Changelog` object type."

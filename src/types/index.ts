@@ -93,6 +93,10 @@ type Version<T = Record<string, string | string[]>> = Release & T;
  */
 interface Changelog<T = Record<string, string | string[]>> {
   /**
+   * Heading
+   */
+  heading: string;
+  /**
    * The versions of changes in the changelog.
    */
   versions: Version<T>[];

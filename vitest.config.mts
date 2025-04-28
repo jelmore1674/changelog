@@ -1,3 +1,4 @@
+import path from "node:path";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
@@ -10,6 +11,14 @@ export default defineConfig({
       reporter: ["text", "json", "html"],
       include: ["src"],
       exclude: ["dist"],
+    },
+  },
+  resolve: {
+    alias: {
+      "@/parser": path.resolve(__dirname, "src/parser"),
+      "@/types": path.resolve(__dirname, "src/types/index.ts"),
+      "@/regex": path.resolve(__dirname, "src/regex/index.ts"),
+      "@/write": path.resolve(__dirname, "./src/write"),
     },
   },
 });

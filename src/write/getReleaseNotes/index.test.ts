@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getReleaseNotes } from "./getReleaseNotes";
+import { getReleaseNotes } from "./";
 
 describe("getReleaseNotes", () => {
   test("can get the latest version", () => {

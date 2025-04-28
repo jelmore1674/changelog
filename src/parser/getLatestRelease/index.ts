@@ -1,5 +1,5 @@
 import latestSemver from "latest-semver";
-import { parseChangelog } from "./parseChangelog";
+import { parseChangelog } from "../parseChangelog";
 
 /**
  * Get the latest release

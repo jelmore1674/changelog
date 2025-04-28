@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getLatestRelease } from "./getLatestRelease";
+import { getLatestRelease } from "./";
 
 describe("getLatestRelease", () => {
   test("Can get the latest release", () => {

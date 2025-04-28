@@ -1,13 +1,13 @@
+import type { Changelog } from "@/types";
 import Handlebars from "handlebars";
-import type { Changelog } from "../types";
-import { change } from "./templates/change";
-import { changelog } from "./templates/changelog";
-import { commonChangelogHeading } from "./templates/commonChangelogHeading";
-import { dynamicVersions } from "./templates/dynamicVersions";
-import { keepaChangelogHeading } from "./templates/keepaChangelogHeading";
-import { links } from "./templates/links";
-import { notice } from "./templates/notice";
-import { versions } from "./templates/versions";
+import { change } from "../templates/change";
+import { changelog } from "../templates/changelog";
+import { commonChangelogHeading } from "../templates/commonChangelogHeading";
+import { dynamicVersions } from "../templates/dynamicVersions";
+import { keepaChangelogHeading } from "../templates/keepaChangelogHeading";
+import { links } from "../templates/links";
+import { notice } from "../templates/notice";
+import { versions } from "../templates/versions";
 
 /**
  * List of keys to exclude from change headings.
