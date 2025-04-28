@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - TBD
 
+### Changed
+
+- Added `heading` property to `Changelog` object type. [`ba7deb8`](https://github.com/jelmore1674/changelog/commit/ba7deb8f6399feaf6e93cadbf9753baba3098203) | [#11](https://github.com/jelmore1674/changelog/issues/11), [#12](https://github.com/jelmore1674/changelog/pull/12) | [Justin Elmore](https://github.com/jelmore1674)
+
+### Added
+
+- `setUnreleasedChangesVersion` to set the version for unreleased changes while preserving other changes. [`ba7deb8`](https://github.com/jelmore1674/changelog/commit/ba7deb8f6399feaf6e93cadbf9753baba3098203) | [#11](https://github.com/jelmore1674/changelog/issues/11), [#12](https://github.com/jelmore1674/changelog/pull/12) | [Justin Elmore](https://github.com/jelmore1674)
+
 ### Security
 
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`6a7ba2e`](https://github.com/jelmore1674/changelog/commit/6a7ba2e3b975aec62e70496fb3d93e1a633cf94e)) ([#10](https://github.com/jelmore1674/changelog/pull/10)) ([dependabot](https://github.com/apps/dependabot))
