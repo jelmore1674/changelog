@@ -17,6 +17,13 @@
     "esModuleInterop": true,
     "declaration": true,
     "skipLibCheck": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/parser/*": ["./parser/*"],
+      "@/write/*": ["./write/*"],
+      "@/regex": ["./regex/index.ts"],
+      "@/types": ["./types/index.ts"]
+    }
   }
 }
