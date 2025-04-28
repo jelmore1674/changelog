@@ -9,8 +9,8 @@ import {
   referenceLinkUrlRegex,
   versionRegex,
   versionSectionRegex,
-} from "../regex";
-import type { Changelog, Reference, Version } from "../types";
+} from "@/regex";
+import type { Changelog, Reference, Version } from "@/types";
 
 /**
  * parse an existing changelog file and convert to an object.
@@ -31,6 +31,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
   changelog: string,
   releaseVersion?: string,
 ): Changelog<T> {
+  const heading = changelog.split(versionSectionRegex)[0].replace("# Changelog", "").trim();
   const parsedVersions = changelog.split(versionSectionRegex).map(section => {
     if (section.toLowerCase().includes("# changelog")) {
       return;
@@ -107,6 +108,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
   }
 
   return {
+    heading,
     versions: parsedVersions || [],
     links,
   };

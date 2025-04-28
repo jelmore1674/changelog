@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { isUnreleasedVersion } from "./isUnreleasedVersion";
+import { isUnreleasedVersion } from "./";
 
 test.each([
   { input: "Unreleased", expected: true },
