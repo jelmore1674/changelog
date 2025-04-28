@@ -1,9 +1,9 @@
+import { parseChangelog } from "@/parser/parseChangelog";
 import Handlebars from "handlebars";
-import { parseChangelog } from "../parser/parseChangelog";
-import { change } from "./templates/change";
-import { changes } from "./templates/changes";
-import { notice } from "./templates/notice";
-import { releaseNotes } from "./templates/releaseNotes";
+import { change } from "../templates/change";
+import { changes } from "../templates/changes";
+import { notice } from "../templates/notice";
+import { releaseNotes } from "../templates/releaseNotes";
 
 function setupHandlebars() {
   Handlebars.registerPartial("version", changes);

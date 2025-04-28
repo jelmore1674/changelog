@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { Changelog } from "../types";
-import { writeChangelog } from "./writeChangelog";
+import { Changelog } from "../../types";
+import { writeChangelog } from "./";
 
 describe("writeChangelog", () => {
   test("Change write the changelog in the correct format", () => {
