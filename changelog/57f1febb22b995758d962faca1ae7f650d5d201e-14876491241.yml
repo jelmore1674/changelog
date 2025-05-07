@@ -1,4 +1,0 @@
-author: dependabot
-security:
-  - Updates `memfs` from 4.17.0 to 4.17.1
-  - Updates `vitest` from 3.1.2 to 3.1.3
