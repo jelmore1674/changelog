@@ -49,19 +49,15 @@ function setUnreleasedChangesVersion(
   const changelog = parseChangelog(rawCl);
 
   const bumped = changelog.versions.map(v => {
-    if (!autoVersioning) {
-      if (v.version.toLowerCase() === "unreleased") {
-        v.version = formattedVersion;
-        v.release_date = new Date().toISOString().split("T")[0];
+    if (!autoVersioning && v.version.toLowerCase() === "unreleased") {
+      v.version = formattedVersion;
+      v.release_date = new Date().toISOString().split("T")[0];
 
-        changelog.links.unshift({
-          reference: formattedVersion,
-          url,
-        });
+      changelog.links.unshift({
+        reference: formattedVersion,
+        url,
+      });
 
-        return v;
-      }
-      v.version = showGitTagPrefix ? `${gitTagPrefix}${v.version}` : v.version;
       return v;
     }
 
