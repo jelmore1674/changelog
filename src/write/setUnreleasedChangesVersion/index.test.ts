@@ -194,4 +194,102 @@ This is a changelog
 
 [v0.1.0]: https://github.com/change\n`);
   });
+
+  test("Set unreleased changes from auto versioned changes", async () => {
+    vol.fromJSON({
+      "./CHANGELOG.md": `# Changelog
+
+This is a changelog
+
+## [v1.0.0] - TBD
+
+### Added
+
+- This really cool change.
+
+## [v0.1.0] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
+
+[v0.1.0]: https://github.com/change\n`,
+    }, process.cwd());
+
+    setUnreleasedChangesVersion("CHANGELOG.md", "1.0.0", "https://github.com/change", {
+      showGitTagPrefix: true,
+      autoVersioning: true,
+    });
+
+    const changelog = fs.readFileSync("CHANGELOG.md", "utf-8");
+
+    expect(changelog).toBe(`# Changelog
+
+This is a changelog
+
+## [v1.0.0] - ${today}
+
+### Added
+
+- This really cool change.
+
+## [v0.1.0] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
+
+[v1.0.0]: https://github.com/change
+[v0.1.0]: https://github.com/change\n`);
+  });
+
+  test("Set unreleased changes from auto versioned changes, without git tag prefix", async () => {
+    vol.fromJSON({
+      "./CHANGELOG.md": `# Changelog
+
+This is a changelog
+
+## [1.0.0] - TBD
+
+### Added
+
+- This really cool change.
+
+## [0.1.0] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
+
+[0.1.0]: https://github.com/change\n`,
+    }, process.cwd());
+
+    setUnreleasedChangesVersion(
+      "CHANGELOG.md",
+      "1.0.0",
+      "https://github.com/change",
+      { showGitTagPrefix: false, autoVersioning: true },
+    );
+
+    const changelog = fs.readFileSync("CHANGELOG.md", "utf-8");
+
+    expect(changelog).toBe(`# Changelog
+
+This is a changelog
+
+## [1.0.0] - ${today}
+
+### Added
+
+- This really cool change.
+
+## [0.1.0] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
+
+[1.0.0]: https://github.com/change
+[0.1.0]: https://github.com/change\n`);
+  });
 });
