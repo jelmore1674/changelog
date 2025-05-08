@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - TBD
 
+### Changed
+
+- Add `autoVersioning` property to be able to update changelog versions date. [`11b8890`](https://github.com/jelmore1674/changelog/commit/11b8890dc44f56d41cfee7eb6a3419b34add702b) | [#15](https://github.com/jelmore1674/changelog/pull/15) | [Justin Elmore](https://github.com/jelmore1674)
+
 ### Security
 
 - Updates `memfs` from 4.17.0 to 4.17.1 [`a36b9ff`](https://github.com/jelmore1674/changelog/commit/a36b9ff15e40abc4ada43a96840e4f09f61924be) | [#14](https://github.com/jelmore1674/changelog/pull/14) | [dependabot](https://github.com/apps/dependabot)
