@@ -6,7 +6,7 @@ on:
     types: [opened, synchronize, reopened, ready_for_review, labeled, unlabeled]
 
 concurrency:
-  group: ${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 
 permissions:
@@ -29,4 +29,6 @@ jobs:
           skip_labels: ops,maintenance,docs
           enable_dependabot: true
           dependabot_labels: dependencies
+          dependabot_section: changed
           comment_on_pr: true
+          show_author_full_name: true
