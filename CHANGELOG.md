@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated release action to create a release on a cron every Wednesday. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
-- Split `Plublish` and `Release` action into separate workflow. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
+- Split `Publish` and `Release` action into separate workflow. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
 - Update dependabot to check for action version updates. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
 
 ## [1.3.0] - 2025-05-08
