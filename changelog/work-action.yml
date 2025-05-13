@@ -1,0 +1,4 @@
+changed:
+  - Updated release action to create a release on a cron every Wednesday.
+  - Split `Plublish` and `Release` action into separate workflow.
+  - Update dependabot to check for action version updates.
