@@ -2,8 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.3.1] - TBD
+
+### Changed
+
+- Updated release action to create a release on a cron every Wednesday. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
+- Split `Plublish` and `Release` action into separate workflow. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
+- Update dependabot to check for action version updates. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
 
 ## [1.3.0] - 2025-05-08
 
@@ -105,6 +113,7 @@ _Intial Release of App_
 
 - This adds a `parseChangelog` function to convert changelogs into an object. ([#1](https://github.com/jelmore1674/changelog/pull/1)) ([jelmore1674](https://github.com/jelmore1674))
 
+[1.3.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.1
 [1.3.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.0
 [1.2.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.2.0
 [1.1.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.1.1
