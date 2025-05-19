@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.2] - TBD
+
+### Changed
+
+- Updates `dprint` from 0.49.1 to 0.50.0 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.17.1 to 4.17.2 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsup` from 8.4.0 to 8.5.0 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 3.1.3 to 3.1.4 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.1] - 2025-05-15
 
 ### Changed
@@ -114,6 +123,7 @@ _Intial Release of App_
 
 - This adds a `parseChangelog` function to convert changelogs into an object. ([#1](https://github.com/jelmore1674/changelog/pull/1)) ([jelmore1674](https://github.com/jelmore1674))
 
+[1.3.2]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.2
 [1.3.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.1
 [1.3.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.0
 [1.2.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.2.0
