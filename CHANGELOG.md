@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `tsup` from 8.4.0 to 8.5.0 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 3.1.3 to 3.1.4 [`c7ac0a5`](https://github.com/jelmore1674/changelog/commit/c7ac0a5fadf00ea4e0eaffdbd1dc2d453bcc3879) | [#18](https://github.com/jelmore1674/changelog/pull/18) | [dependabot](https://github.com/apps/dependabot)
 
+### Fixed
+
+- Prevent release workflow from always triggering a release. [`dd498e2`](https://github.com/jelmore1674/changelog/commit/dd498e26f53150c3c953216a7463a0cc7ddcff2b) | [#19](https://github.com/jelmore1674/changelog/pull/19) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [1.3.1] - 2025-05-15
 
 ### Changed
