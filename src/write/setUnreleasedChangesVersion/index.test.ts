@@ -31,6 +31,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - This really cool change.
 
+## [0.1.1] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
+
 ## [0.1.0] - 2025-01-01
 
 ### Fixed
@@ -56,6 +62,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - This really cool change.
+
+## [0.1.1] - 2025-01-01
+
+### Fixed
+
+- This test issue [\`abcdef3\`](https://github.com/jelmore1674/build-changelog/commit/abcdef3149d) | [bcl-bot](https://github.com/jelmore1674)
 
 ## [0.1.0] - 2025-01-01
 
