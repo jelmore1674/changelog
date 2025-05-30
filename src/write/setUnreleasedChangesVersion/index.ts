@@ -1,5 +1,4 @@
 import { parseChangelog } from "@/parser/parseChangelog";
-import { dateRegex } from "@/regex";
 import { readFileSync, writeFileSync } from "node:fs";
 import { writeChangelog } from "../writeChangelog";
 
