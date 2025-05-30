@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update dependabot to check for action version updates. [`29b251b`](https://github.com/jelmore1674/changelog/commit/29b251bc20827a163d3bc59ca284979a413934cf) | [#17](https://github.com/jelmore1674/changelog/pull/17) | [Justin Elmore](https://github.com/jelmore1674)
 - Updates `semver` from 7.7.1 to 7.7.2 [`748df99`](https://github.com/jelmore1674/changelog/commit/748df99fbbee0aec624d91abe94b410fa6a9eb1e) | [#16](https://github.com/jelmore1674/changelog/pull/16) | [dependabot](https://github.com/apps/dependabot)
 
-## [1.3.0] - 2025-05-22
+## [1.3.0] - 2025-05-08
 
 ### Changed
 
@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `memfs` from 4.17.0 to 4.17.1 [`a36b9ff`](https://github.com/jelmore1674/changelog/commit/a36b9ff15e40abc4ada43a96840e4f09f61924be) | [#14](https://github.com/jelmore1674/changelog/pull/14) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 3.1.2 to 3.1.3 [`a36b9ff`](https://github.com/jelmore1674/changelog/commit/a36b9ff15e40abc4ada43a96840e4f09f61924be) | [#14](https://github.com/jelmore1674/changelog/pull/14) | [dependabot](https://github.com/apps/dependabot)
 
-## [1.2.0] - 2025-05-15
+## [1.2.0] - 2025-04-28
 
 ### Changed
 
@@ -52,13 +52,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updates `vitest` from 3.1.1 to 3.1.2 ([`6a7ba2e`](https://github.com/jelmore1674/changelog/commit/6a7ba2e3b975aec62e70496fb3d93e1a633cf94e)) ([#10](https://github.com/jelmore1674/changelog/pull/10)) ([dependabot](https://github.com/apps/dependabot))
 
-## [1.1.1] - 2025-05-22
+## [1.1.1] - 2025-04-19
 
 ### Fixed
 
 - Fixed code formatting issues in the readme. ([Justin Elmore](https://github.com/jelmore1674))
 
-## [1.1.0] - 2025-05-15
+## [1.1.0] - 2025-04-19
 
 ### Added
 
@@ -72,7 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updates `vite` from 6.2.5 to 6.3.2 ([`6094f23`](https://github.com/jelmore1674/changelog/commit/6094f234b0af939ca4d4fcc2cdde58af471afb3c)) ([#9](https://github.com/jelmore1674/changelog/pull/9)) ([dependabot](https://github.com/apps/dependabot))
 
-## [1.0.0] - 2025-05-22
+## [1.0.0] - 2025-04-15
 
 ### Changed
 
@@ -83,49 +83,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ability to parse markdown reference links. ([#6](https://github.com/jelmore1674/changelog/pull/6)) ([jelmore1674](https://github.com/jelmore1674))
 - Functionality to be able to write changelog files. ([#7](https://github.com/jelmore1674/changelog/pull/7)) ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.3.0] - 2025-05-15
+## [0.3.0] - 2025-04-12
 
 ### Fixed
 
 - Fix regex for detecting notices in changelogs. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.8] - 2025-05-22
+## [0.2.8] - 2025-04-09
 
 ### Removed
 
 - Replace `isUnreleasedVersion` with hard string check. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.7] - 2025-05-15
+## [0.2.7] - 2025-04-09
 
 ### Fixed
 
 - Set the main to `dist/index.js`. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.6] - 2025-05-22
+## [0.2.6] - 2025-04-09
 
 ### Fixed
 
 - Filed default module file in package.json. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.5] - 2025-05-15
+## [0.2.5] - 2025-04-09
 
 ### Fixed
 
 - Add `index.ts` to export all files to get type declarations. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.4] - 2025-05-22
+## [0.2.4] - 2025-04-09
 
 ### Fixed
 
 - Fixed the output files in the package.json. ([jelmore1674](https://github.com/jelmore1674))
 
-## [0.2.3] - 2025-05-15
+## [0.2.3] - 2025-04-09
 
 _Intial Release of App_
-
-### Added
-
-- This adds a `parseChangelog` function to convert changelogs into an object. ([#1](https://github.com/jelmore1674/changelog/pull/1)) ([jelmore1674](https://github.com/jelmore1674))
 
 [1.3.2]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.2
 [1.3.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.1

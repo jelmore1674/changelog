@@ -1,5 +1,4 @@
 import { parseChangelog } from "@/parser/parseChangelog";
-import { dateRegex } from "@/regex";
 import { readFileSync, writeFileSync } from "node:fs";
 import { writeChangelog } from "../writeChangelog";
 
@@ -63,7 +62,7 @@ function setUnreleasedChangesVersion(
 
     v.version = showGitTagPrefix ? `${gitTagPrefix}${v.version}` : v.version;
 
-    if (!dateRegex.test(v.release_date || "")) {
+    if (v.release_date === "TBD") {
       v.release_date = new Date().toISOString().split("T")[0];
 
       const link = changelog.links.find(l => l.reference === v.version);
