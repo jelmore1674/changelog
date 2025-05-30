@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.3] - TBD
+
+### Fixed
+
+- Issue when bumping changelog version changing all dates. [`13d8f45`](https://github.com/jelmore1674/changelog/commit/13d8f45f9da039d5ca9aae0c4c370199ec164824) | [#20](https://github.com/jelmore1674/changelog/pull/20) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [1.3.2] - 2025-05-22
 
 ### Changed
@@ -123,6 +129,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.3]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.3
 [1.3.2]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.2
 [1.3.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.1
 [1.3.0]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.0
