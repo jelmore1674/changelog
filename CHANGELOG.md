@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.4] - TBD
+
+### Changed
+
+- Updates `vitest` from 3.1.4 to 3.2.0 [`e90cfff`](https://github.com/jelmore1674/changelog/commit/e90cfff48751f6b695781428140ca0f37c037e53) | [#21](https://github.com/jelmore1674/changelog/pull/21) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.3] - 2025-05-30
 
 ### Fixed
@@ -129,6 +135,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.4]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.4
 [1.3.3]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.3
 [1.3.2]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.2
 [1.3.1]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.1
