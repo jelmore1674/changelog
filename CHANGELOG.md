@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.6] - TBD
+
+### Changed
+
+- Updates `brace-expansion` from 2.0.1 to 2.0.2 [`96bef36`](https://github.com/jelmore1674/changelog/commit/96bef366d0d9937833055f82f4e989abda9e03a4) | [#23](https://github.com/jelmore1674/changelog/pull/23) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.5] - 2025-06-12
 
 ### Changed
@@ -141,6 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.6]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.6
 [1.3.5]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.5
 [1.3.4]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.4
 [1.3.3]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.3
