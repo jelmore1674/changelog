@@ -1,0 +1,4 @@
+author: dependabot
+changed:
+  - Updates `@biomejs/biome` from 1.9.4 to 2.0.5
+  - Updates `vitest` from 3.2.3 to 3.2.4
