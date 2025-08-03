@@ -47,7 +47,6 @@ interface Release {
   /**
    * The release date of the current release.
    */
-  // biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
   release_date?: string;
 
   /**
@@ -68,7 +67,6 @@ interface Release {
  *
  * @link [keep-a-changelog](https://keepachangelog.com/en/1.1.0/#how)
  */
-// biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
 type KeepAChangelogKeywords = keyof typeof KEEP_A_CHANGELOG_CHANGES;
 
 /**
@@ -78,7 +76,6 @@ type KeepAChangelogKeywords = keyof typeof KEEP_A_CHANGELOG_CHANGES;
  */
 type CommonChangelogKeywords = keyof typeof COMMON_CHANGELOG_CHANGES;
 
-// biome-ignore lint/style/useNamingConvention: leave this for yaml/toml usage
 type KeepAChangelogSemantics = Partial<Record<KeepAChangelogKeywords, string[]>>;
 
 type CommonChangelogSemantics = Partial<Record<CommonChangelogKeywords, string[]>>;
