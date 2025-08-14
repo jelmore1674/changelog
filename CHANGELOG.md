@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.8] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.0.6 to 2.1.4 [`6022608`](https://github.com/jelmore1674/changelog/commit/6022608caf6bc4f8ff6cb5a2cf04c361ce4f433d) | [#26](https://github.com/jelmore1674/changelog/pull/26) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.17.2 to 4.36.0 [`6022608`](https://github.com/jelmore1674/changelog/commit/6022608caf6bc4f8ff6cb5a2cf04c361ce4f433d) | [#26](https://github.com/jelmore1674/changelog/pull/26) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 5.8.3 to 5.9.2 [`6022608`](https://github.com/jelmore1674/changelog/commit/6022608caf6bc4f8ff6cb5a2cf04c361ce4f433d) | [#26](https://github.com/jelmore1674/changelog/pull/26) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.7] - 2025-08-07
 
 ### Changed
@@ -155,6 +163,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.8]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.8
 [1.3.7]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.7
 [1.3.6]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.6
 [1.3.5]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.5
