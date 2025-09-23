@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bumps [1password/load-secrets-action](https://github.com/1password/load-secrets-action) from 2 to 3. [`c8cc029`](https://github.com/jelmore1674/changelog/commit/c8cc029863600fc1ea7bb9e22faa1dc646e849ed) | [#29](https://github.com/jelmore1674/changelog/pull/29) | [dependabot](https://github.com/apps/dependabot)
 - Bumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 5. [`0fcb3b0`](https://github.com/jelmore1674/changelog/commit/0fcb3b00ade3e9eba77babb52908574dd1871030) | [#30](https://github.com/jelmore1674/changelog/pull/30) | [dependabot](https://github.com/apps/dependabot)
 - Bumps [JS-DevTools/npm-publish](https://github.com/js-devtools/npm-publish) from 3 to 4. [`57595e9`](https://github.com/jelmore1674/changelog/commit/57595e92c8d95bb7f358efd6e858b398d2db69b7) | [#33](https://github.com/jelmore1674/changelog/pull/33) | [dependabot](https://github.com/apps/dependabot)
+- Migrate to `build-changelog` dir for changelog files. [`89bb094`](https://github.com/jelmore1674/changelog/commit/89bb09444ed074041a0ff97ddc8d61c9dd5738d6) | [#37](https://github.com/jelmore1674/changelog/pull/37) | [Justin Elmore](https://github.com/jelmore1674)
 
 ### Fixed
 
