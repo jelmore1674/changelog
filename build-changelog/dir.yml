@@ -1,0 +1,2 @@
+changed:
+  - Migrate to `build-changelog` dir for changelog files.
