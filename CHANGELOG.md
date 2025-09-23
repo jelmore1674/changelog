@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updates `vite` from 7.0.2 to 7.1.5 [`c51bea5`](https://github.com/jelmore1674/changelog/commit/c51bea50a6762bc180069b7588ba03098f30add5) | [#32](https://github.com/jelmore1674/changelog/pull/32) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@biomejs/biome` from 2.1.4 to 2.2.4 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@types/semver` from 7.7.0 to 7.7.1 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.50.1 to 0.50.2 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.36.0 to 4.43.0 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
 
 ## [1.3.8] - 2025-08-21
 
