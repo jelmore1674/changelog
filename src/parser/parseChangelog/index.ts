@@ -32,9 +32,10 @@ function parseChangelog<T = Record<string, string | string[]>>(
   releaseVersion?: string,
 ): Changelog<T> {
   const heading = changelog.split(versionSectionRegex)[0].replace("# Changelog", "").trim();
-  const parsedVersions = changelog.split(versionSectionRegex).map(section => {
+  const parsedVersions: Version<T>[] = [];
+  for (const section of changelog.split(versionSectionRegex)) {
     if (section.toLowerCase().includes("# changelog")) {
-      return;
+      continue;
     }
 
     // Pull the version and release_date from the section.
@@ -64,9 +65,9 @@ function parseChangelog<T = Record<string, string | string[]>>(
       release.notice = notice;
     }
 
-    section.split(changeSectionRegex).map(changeKeyword => {
+    for (const changeKeyword of section.split(changeSectionRegex)) {
       if (changeKeyword.match(versionSectionRegex)) {
-        return;
+        continue;
       }
 
       const [, keyword] = changeKeyword.match(keywordRegex) as string[];
@@ -83,17 +84,17 @@ function parseChangelog<T = Record<string, string | string[]>>(
           )
           .filter(Boolean);
       }
-    }).filter(Boolean);
+    }
 
-    return release;
-  }).filter(Boolean) as Version<T>[];
+    parsedVersions.push(release as Version<T>);
+  }
 
   const links: Reference[] = [];
 
   const linkSection = changelog.match(markdownReferenceLinkRegex);
 
   if (linkSection && linkSection.length > 0) {
-    linkSection.map(link => {
+    for (const link of linkSection) {
       const referenceMatch = link.match(referenceLinkRegex);
       const urlMatch = link.match(referenceLinkUrlRegex);
 
@@ -103,7 +104,7 @@ function parseChangelog<T = Record<string, string | string[]>>(
           url: urlMatch[1],
         });
       }
-    });
+    }
   }
 
   return {
