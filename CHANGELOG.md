@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `@types/semver` from 7.7.0 to 7.7.1 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
 - Updates `dprint` from 0.50.1 to 0.50.2 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
 - Updates `memfs` from 4.36.0 to 4.43.0 [`967c92e`](https://github.com/jelmore1674/changelog/commit/967c92e1f16f7144d82ad774f84c583c917ae358) | [#34](https://github.com/jelmore1674/changelog/pull/34) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5. [`3322c60`](https://github.com/jelmore1674/changelog/commit/3322c602d9e1bbe958cb9041c9be54d51010a410) | [#35](https://github.com/jelmore1674/changelog/pull/35) | [dependabot](https://github.com/apps/dependabot)
+
+### Fixed
+
+- Fix new `biome` linting rules. [`3322c60`](https://github.com/jelmore1674/changelog/commit/3322c602d9e1bbe958cb9041c9be54d51010a410) | [#35](https://github.com/jelmore1674/changelog/pull/35) | [Justin Elmore](https://github.com/jelmore1674)
 
 ## [1.3.8] - 2025-08-21
 
