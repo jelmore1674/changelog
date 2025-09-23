@@ -29,7 +29,7 @@ jobs:
         run: pnpm i --frozen-lockfile
       - name: Build
         run: pnpm build
-      - uses: JS-DevTools/npm-publish@v3
+      - uses: JS-DevTools/npm-publish@v4
         with:
           token: ${{ steps.load-op.outputs.NPM_TOKEN }}
           access: public
