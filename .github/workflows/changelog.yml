@@ -46,3 +46,4 @@ jobs:
           token: ${{ steps.get_workflow_token.outputs.token }}
           changelog_style: common-changelog
           auto_versioning: true
+          dir: build-changelog
