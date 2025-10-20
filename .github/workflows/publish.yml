@@ -20,7 +20,10 @@ jobs:
         with:
           registry-url: "https://registry.npmjs.org"
           node-version: "20"
-          cache: "pnpm"
+
+        # Ensure npm 11.5.1 or later is installed
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install Packages.
         run: pnpm i --frozen-lockfile
@@ -28,9 +31,5 @@ jobs:
       - name: Build
         run: pnpm build
 
-      # Ensure npm 11.5.1 or later is installed
-      - name: Update npm
-        run: npm install -g npm@latest
-
       - name: publish
-        run: npm publish
+        run: pnpm publish --provenance --access publicm --no-git-checks
