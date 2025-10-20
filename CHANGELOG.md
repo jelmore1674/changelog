@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.10] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.2.4 to 2.2.5 [`c176ae9`](https://github.com/jelmore1674/changelog/commit/c176ae9744adf0a70e2332bf3444573a2285c620) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.43.0 to 4.48.1 [`c176ae9`](https://github.com/jelmore1674/changelog/commit/c176ae9744adf0a70e2332bf3444573a2285c620) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 5.9.2 to 5.9.3 [`c176ae9`](https://github.com/jelmore1674/changelog/commit/c176ae9744adf0a70e2332bf3444573a2285c620) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.9] - 2025-09-25
 
 ### Changed
@@ -182,6 +190,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.10]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.10
 [1.3.9]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.9
 [1.3.8]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.8
 [1.3.7]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.7
