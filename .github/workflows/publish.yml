@@ -27,5 +27,9 @@ jobs:
       - name: Build
         run: pnpm build
 
+      # Ensure npm 11.5.1 or later is installed
+      - name: Update npm
+        run: npm install -g npm@latest
+
       - name: publish
-        run: pnpm publish --no-git-checks
+        run: npm publish
