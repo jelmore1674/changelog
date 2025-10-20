@@ -7,29 +7,25 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # required to use OIDC
     steps:
       - uses: actions/checkout@v5
 
-      - name: Load secret
-        id: load-op
-        uses: 1password/load-secrets-action@v3
-        with:
-          # Export loaded secrets as environment variables
-          export-env: false
-        env:
-          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
-          NPM_TOKEN: "op://Actions/shared/NPM_TOKEN"
-
       - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v5
         with:
           node-version: "20"
           cache: "pnpm"
+
       - name: Install Packages.
         run: pnpm i --frozen-lockfile
+
       - name: Build
         run: pnpm build
+
       - uses: JS-DevTools/npm-publish@v4
         with:
-          token: ${{ steps.load-op.outputs.NPM_TOKEN }}
           access: public
