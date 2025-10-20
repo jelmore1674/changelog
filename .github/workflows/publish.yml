@@ -27,6 +27,5 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - uses: JS-DevTools/npm-publish@v4
-        with:
-          access: public
+      - name: publish
+        run: pnpm publish
