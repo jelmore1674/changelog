@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.11] - TBD
+
+### Changed
+
+- Updates `vite` from 7.1.5 to 7.1.11 [`eaaaf32`](https://github.com/jelmore1674/changelog/commit/eaaaf32cf275e3f4bf673a6b3be3f329e6f5aee6) | [#44](https://github.com/jelmore1674/changelog/pull/44) | [dependabot](https://github.com/apps/dependabot)
+
 ## [1.3.10] - 2025-10-20
 
 ### Changed
@@ -190,6 +196,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[1.3.11]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.11
 [1.3.10]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.10
 [1.3.9]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.9
 [1.3.8]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.8
