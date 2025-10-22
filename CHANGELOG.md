@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `semver` from 7.7.2 to 7.7.3 [`f95f1f4`](https://github.com/jelmore1674/changelog/commit/f95f1f43d94caf11f00867ee9793020df195b0b6) | [#40](https://github.com/jelmore1674/changelog/pull/40) | [dependabot](https://github.com/apps/dependabot)
 - Updates `@biomejs/biome` from 2.2.5 to 2.2.6 [`1de41c3`](https://github.com/jelmore1674/changelog/commit/1de41c3f1c33dab71c8fdc1f2c9c655c63bc84c4) | [#41](https://github.com/jelmore1674/changelog/pull/41) | [dependabot](https://github.com/apps/dependabot)
 - Updates `memfs` from 4.48.1 to 4.49.0 [`1de41c3`](https://github.com/jelmore1674/changelog/commit/1de41c3f1c33dab71c8fdc1f2c9c655c63bc84c4) | [#41](https://github.com/jelmore1674/changelog/pull/41) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 5 to 6. [`a52f047`](https://github.com/jelmore1674/changelog/commit/a52f0472aa47256763da0d47fcb1992b73888503) | [#43](https://github.com/jelmore1674/changelog/pull/43) | [dependabot](https://github.com/apps/dependabot)
 
 ## [1.3.10] - 2025-10-20
 
