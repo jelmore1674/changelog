@@ -29,11 +29,11 @@
     "@biomejs/biome": "^2.0.6",
     "@types/node": "^22.14.0",
     "@types/semver": "^7.7.0",
-    "dprint": "^0.50.0",
+    "dprint": "^0.51.1",
     "memfs": "^4.17.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.1"
+    "vitest": "^4.0.16"
   },
   "dependencies": {
     "handlebars": "^4.7.8",
