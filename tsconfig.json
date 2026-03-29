@@ -6,10 +6,10 @@
     "**/*.test.ts"
   ],
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "nodenext",
     "module": "nodenext",
     "lib": [
-      "ESNext"
+      "nodenext"
     ],
     "outDir": "dist",
     "rootDir": "src",
