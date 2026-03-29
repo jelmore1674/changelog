@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Bumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6. [`f8dfd07`](https://github.com/jelmore1674/changelog/commit/f8dfd07ab41fda3d0bb626c7beef0596866f266a) | [#49](https://github.com/jelmore1674/changelog/pull/49) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [handlebars](https://github.com/handlebars-lang/handlebars.js) from 4.7.8 to 4.7.9. [`c5ba8f4`](https://github.com/jelmore1674/changelog/commit/c5ba8f4b025c6dec6f8d5ade1e72ffc8f5eae334) | [#52](https://github.com/jelmore1674/changelog/pull/52) | [dependabot](https://github.com/apps/dependabot)
 
 ## [1.3.11] - 2025-10-23
 
