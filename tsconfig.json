@@ -6,7 +6,7 @@
     "**/*.test.ts"
   ],
   "compilerOptions": {
-    "target": "nodenext",
+    "target": "esnext",
     "module": "nodenext",
     "lib": [
       "nodenext"
