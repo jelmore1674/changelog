@@ -7,9 +7,9 @@
   ],
   "compilerOptions": {
     "target": "esnext",
-    "module": "nodenext",
+    "module": "esnext",
     "lib": [
-      "nodenext"
+      "esnext"
     ],
     "outDir": "dist",
     "rootDir": "src",
@@ -17,7 +17,7 @@
     "esModuleInterop": true,
     "declaration": true,
     "skipLibCheck": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
     "paths": {
       "@/parser/*": ["./src/parser/*"],
       "@/write/*": ["./src/write/*"],
