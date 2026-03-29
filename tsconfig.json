@@ -6,10 +6,10 @@
     "**/*.test.ts"
   ],
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "esnext",
+    "module": "esnext",
     "lib": [
-      "ESNext"
+      "esnext"
     ],
     "outDir": "dist",
     "rootDir": "src",
@@ -17,13 +17,12 @@
     "esModuleInterop": true,
     "declaration": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
-    "baseUrl": "./src",
+    "moduleResolution": "bundler",
     "paths": {
-      "@/parser/*": ["./parser/*"],
-      "@/write/*": ["./write/*"],
-      "@/regex": ["./regex/index.ts"],
-      "@/types": ["./types/index.ts"]
+      "@/parser/*": ["./src/parser/*"],
+      "@/write/*": ["./src/write/*"],
+      "@/regex": ["./src/regex/index.ts"],
+      "@/types": ["./src/types/index.ts"]
     }
   }
 }
