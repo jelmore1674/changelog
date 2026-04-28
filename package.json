@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "lint": "biome lint --error-on-warnings && dprint check",
     "test": "vitest"
   },
@@ -27,13 +27,13 @@
   "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
   "devDependencies": {
     "@biomejs/biome": "^2.0.6",
-    "@types/node": "^22.14.0",
+    "@types/node": "^24.12.2",
     "@types/semver": "^7.7.0",
-    "dprint": "^0.50.0",
+    "dprint": "^0.54.0",
     "memfs": "^4.17.0",
-    "tsup": "^8.4.0",
-    "typescript": "^5.8.3",
-    "vitest": "^3.1.1"
+    "tsdown": "^0.21.10",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
   },
   "dependencies": {
     "handlebars": "^4.7.8",
