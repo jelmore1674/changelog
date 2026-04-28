@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Bumps [1password/load-secrets-action](https://github.com/1password/load-secrets-action) from 3 to 4. [`afdf482`](https://github.com/jelmore1674/changelog/commit/afdf4820fd9923a6bc6096364ee3598755e43b84) | [#55](https://github.com/jelmore1674/changelog/pull/55) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [pnpm/action-setup](https://github.com/pnpm/action-setup) from 4 to 6. [`3b32557`](https://github.com/jelmore1674/changelog/commit/3b325570e53f1fa3b2034c0e2544d04ebac125af) | [#54](https://github.com/jelmore1674/changelog/pull/54) | [dependabot](https://github.com/apps/dependabot)
 
 ## [1.3.12] - 2026-03-29
 
