@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsdown";
 
 export default defineConfig({
   entry: [
@@ -6,8 +6,8 @@ export default defineConfig({
   ],
   format: ["cjs", "esm"], // Build for commonJS and ESmodules
   dts: true, // Generate declaration file (.d.ts)
-  splitting: true,
   sourcemap: true,
   clean: true,
   treeshake: true,
+  target: false,
 });
