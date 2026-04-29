@@ -1,0 +1,3 @@
+removed:
+  breaking:
+    - "`cjs` support. (Only support ESM now)."

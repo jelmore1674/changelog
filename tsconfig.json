@@ -16,6 +16,7 @@
     "strict": true,
     "esModuleInterop": true,
     "declaration": true,
+    "declarationMap": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
     "baseUrl": "./src",

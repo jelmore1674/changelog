@@ -4,10 +4,11 @@ export default defineConfig({
   entry: [
     "src/index.ts",
   ],
-  format: ["cjs", "esm"], // Build for commonJS and ESmodules
-  dts: true, // Generate declaration file (.d.ts)
-  sourcemap: true,
+  format: ["esm"], // Build for commonJS and ESmodules
   clean: true,
-  treeshake: true,
   target: false,
+  dts: {
+    sourcemap: true,
+  },
+  fixedExtension: false,
 });
