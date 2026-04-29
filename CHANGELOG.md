@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - TBD
+
+### Removed
+
+- [Breaking 🧨] - `cjs` support. (Only support ESM now). [`3cacdf9`](https://github.com/jelmore1674/changelog/commit/3cacdf9c022ad40b838ce3a7b23cb2bb86b8b6b4) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [1.3.13] - 2026-04-29
 
 ### Changed
@@ -222,6 +228,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.0]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.0
 [1.3.13]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.13
 [1.3.12]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.12
 [1.3.11]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.11
