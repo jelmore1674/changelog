@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Bumps [jelmore1674/release-semver-action](https://github.com/jelmore1674/release-semver-action) from 1 to 2. [`4b7c314`](https://github.com/jelmore1674/changelog/commit/4b7c314e86382e57b5f334588e58a11910a3380d) | [#56](https://github.com/jelmore1674/changelog/pull/56) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [jelmore1674/build-changelog](https://github.com/jelmore1674/build-changelog) from 1 to 2. [`bd53dfe`](https://github.com/jelmore1674/changelog/commit/bd53dfe3ecce0375ffc97a6af9cbf31ed10b840d) | [#57](https://github.com/jelmore1674/changelog/pull/57) | [dependabot](https://github.com/apps/dependabot)
 
 ## [2.0.0] - 2026-04-29
 
