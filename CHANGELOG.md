@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - TBD
+
+### Changed
+
+- Bumps [jelmore1674/release-semver-action](https://github.com/jelmore1674/release-semver-action) from 1 to 2. [`4b7c314`](https://github.com/jelmore1674/changelog/commit/4b7c314e86382e57b5f334588e58a11910a3380d) | [#56](https://github.com/jelmore1674/changelog/pull/56) | [dependabot](https://github.com/apps/dependabot)
+
 ## [2.0.0] - 2026-04-29
 
 ### Removed
@@ -228,6 +234,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.1]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.1
 [2.0.0]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.0
 [1.3.13]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.13
 [1.3.12]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.12
