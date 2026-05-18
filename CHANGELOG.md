@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updates `semver` from 7.7.4 to 7.8.0 [`1ff80bf`](https://github.com/jelmore1674/changelog/commit/1ff80bfa40cfa308791d1d2c2155c9c48e240ab3) | [#59](https://github.com/jelmore1674/changelog/pull/59) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@biomejs/biome` from 2.4.13 to 2.4.15 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsdown` from 0.21.10 to 0.22.0 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.5 to 4.1.6 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
 
 ## [2.0.1] - 2026-05-07
 
