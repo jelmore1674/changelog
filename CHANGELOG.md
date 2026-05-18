@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.2] - TBD
+
+### Changed
+
+- Updates `semver` from 7.7.4 to 7.8.0 [`1ff80bf`](https://github.com/jelmore1674/changelog/commit/1ff80bfa40cfa308791d1d2c2155c9c48e240ab3) | [#59](https://github.com/jelmore1674/changelog/pull/59) | [dependabot](https://github.com/apps/dependabot)
+
 ## [2.0.1] - 2026-05-07
 
 ### Changed
@@ -235,6 +241,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.2]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.2
 [2.0.1]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.1
 [2.0.0]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.0
 [1.3.13]: https://github.com/jelmore1674/changelog/releases/tag/v1.3.13
