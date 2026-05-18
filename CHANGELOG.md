@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `@biomejs/biome` from 2.4.13 to 2.4.15 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
 - Updates `tsdown` from 0.21.10 to 0.22.0 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 4.1.5 to 4.1.6 [`9fe39fc`](https://github.com/jelmore1674/changelog/commit/9fe39fcba6778bf951fd16bf1aea691d0064596c) | [#61](https://github.com/jelmore1674/changelog/pull/61) | [dependabot](https://github.com/apps/dependabot)
+- Update to use `actions/create-github-app-token@v3` to generate tokens. [`9aee53b`](https://github.com/jelmore1674/changelog/commit/9aee53b613fdd6e7279a64a0df6ee78fbca37131) | [#62](https://github.com/jelmore1674/changelog/pull/62) | [Justin Elmore](https://github.com/jelmore1674)
+- Update to `pnpm` to latest version. [`9aee53b`](https://github.com/jelmore1674/changelog/commit/9aee53b613fdd6e7279a64a0df6ee78fbca37131) | [#62](https://github.com/jelmore1674/changelog/pull/62) | [Justin Elmore](https://github.com/jelmore1674)
+
+### Added
+
+- `mise` to manage versions. [`9aee53b`](https://github.com/jelmore1674/changelog/commit/9aee53b613fdd6e7279a64a0df6ee78fbca37131) | [#62](https://github.com/jelmore1674/changelog/pull/62) | [Justin Elmore](https://github.com/jelmore1674)
 
 ## [2.0.1] - 2026-05-07
 
