@@ -16,7 +16,7 @@ importers:
         version: 4.0.0
       semver:
         specifier: ^7.7.1
-        version: 7.8.0
+        version: 7.8.1
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.0.6
@@ -1160,8 +1160,8 @@ packages:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
 
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2078,7 +2078,7 @@ snapshots:
 
   clean-semver@2.1.0:
     dependencies:
-      semver: 7.8.0
+      semver: 7.8.1
 
   convert-source-map@2.0.0: {}
 
@@ -2418,7 +2418,7 @@ snapshots:
       xmlchars: 2.2.0
     optional: true
 
-  semver@7.8.0: {}
+  semver@7.8.1: {}
 
   siginfo@2.0.0: {}
 
@@ -2461,7 +2461,7 @@ snapshots:
   to-semver@4.0.0:
     dependencies:
       clean-semver: 2.1.0
-      semver: 7.8.0
+      semver: 7.8.1
 
   tough-cookie@5.1.2:
     dependencies:
@@ -2491,7 +2491,7 @@ snapshots:
       picomatch: 4.0.4
       rolldown: 1.0.1
       rolldown-plugin-dts: 0.25.1(rolldown@1.0.1)(typescript@6.0.3)
-      semver: 7.8.0
+      semver: 7.8.1
       tinyexec: 1.1.2
       tinyglobby: 0.2.16
       tree-kill: 1.2.2
