@@ -1,8 +1,0 @@
-author: dependabot
-changed:
-  - Updates `@biomejs/biome` from 2.4.15 to 2.5.3
-  - Updates `dprint` from 0.54.0 to 0.55.1
-  - Updates `memfs` from 4.57.2 to 4.64.0
-  - Updates `tsdown` from 0.22.0 to 0.22.5
-  - Updates `typescript` from 6.0.3 to 7.0.2
-  - Updates `vitest` from 4.1.7 to 4.1.10

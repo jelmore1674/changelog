@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.4] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.4.15 to 2.5.3 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.54.0 to 0.55.1 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.57.2 to 4.64.0 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsdown` from 0.22.0 to 0.22.5 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 6.0.3 to 7.0.2 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.7 to 4.1.10 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
+
 ## [2.0.3] - 2026-06-04
 
 ### Changed
@@ -256,6 +267,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.4]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.4
 [2.0.3]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.3
 [2.0.2]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.2
 [2.0.1]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.1
