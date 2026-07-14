@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updates `typescript` from 6.0.3 to 7.0.2 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
 - Updates `vitest` from 4.1.7 to 4.1.10 [`e376ac7`](https://github.com/jelmore1674/changelog/commit/e376ac75444c00569fcca531b6ad4817ee421c4d) | [#70](https://github.com/jelmore1674/changelog/pull/70) | [dependabot](https://github.com/apps/dependabot)
 - Bumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7. [`b41c9d2`](https://github.com/jelmore1674/changelog/commit/b41c9d22245157150cd330883c8997a1a0b12637) | [#67](https://github.com/jelmore1674/changelog/pull/67) | [dependabot](https://github.com/apps/dependabot)
+- Updates `semver` from 7.8.0 to 7.8.5 [`48c28ad`](https://github.com/jelmore1674/changelog/commit/48c28ad419145229aaabe4fad724637f43b708f4) | [#68](https://github.com/jelmore1674/changelog/pull/68) | [dependabot](https://github.com/apps/dependabot)
 
 ## [2.0.3] - 2026-06-04
 
