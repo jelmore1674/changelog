@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.5] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.5.3 to 2.5.4 [`cfe5a50`](https://github.com/jelmore1674/changelog/commit/cfe5a5038d96348c18b8be88f1313b383652a04e) | [#71](https://github.com/jelmore1674/changelog/pull/71) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.55.1 to 0.55.2 [`cfe5a50`](https://github.com/jelmore1674/changelog/commit/cfe5a5038d96348c18b8be88f1313b383652a04e) | [#71](https://github.com/jelmore1674/changelog/pull/71) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsdown` from 0.22.5 to 0.22.9 [`cfe5a50`](https://github.com/jelmore1674/changelog/commit/cfe5a5038d96348c18b8be88f1313b383652a04e) | [#71](https://github.com/jelmore1674/changelog/pull/71) | [dependabot](https://github.com/apps/dependabot)
+
 ## [2.0.4] - 2026-07-16
 
 ### Changed
@@ -269,6 +277,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.5]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.5
 [2.0.4]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.4
 [2.0.3]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.3
 [2.0.2]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.2
