@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.6] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.5.4 to 2.5.5 [`5e839c8`](https://github.com/jelmore1674/changelog/commit/5e839c8a7ac9f0f274d0b2597a5ddd945f3813e3) | [#72](https://github.com/jelmore1674/changelog/pull/72) | [dependabot](https://github.com/apps/dependabot)
+- Updates `tsdown` from 0.22.9 to 0.22.14 [`5e839c8`](https://github.com/jelmore1674/changelog/commit/5e839c8a7ac9f0f274d0b2597a5ddd945f3813e3) | [#72](https://github.com/jelmore1674/changelog/pull/72) | [dependabot](https://github.com/apps/dependabot)
+
 ## [2.0.5] - 2026-07-23
 
 ### Changed
@@ -277,6 +284,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Intial Release of App_
 
+[2.0.6]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.6
 [2.0.5]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.5
 [2.0.4]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.4
 [2.0.3]: https://github.com/jelmore1674/changelog/releases/tag/v2.0.3
