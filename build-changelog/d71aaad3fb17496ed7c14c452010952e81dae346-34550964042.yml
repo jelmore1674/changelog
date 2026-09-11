@@ -1,0 +1,5 @@
+author: dependabot
+changed:
+  - Bumps
+    [vitest](https://github.com/vitest-dev/vitest/tree/HEAD/packages/vitest)
+    from 4.1.10 to 5.0.0.
